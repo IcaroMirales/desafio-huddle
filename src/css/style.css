@@ -1,0 +1,82 @@
+
+body {
+    background: url(../images/bg-desktop.svg) center center no-repeat hsl(257, 40%, 49%);
+    background-size: cover;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 2%;
+    font-family: "Poppins", serif;
+}  
+
+header {
+    margin: 4rem 0 8rem;
+}
+
+main {
+    display: flex;  
+    justify-content: center;
+}
+
+main .info {
+    margin-left: 2rem;
+    max-width: 30vw;
+    padding: 4rem 0 2rem 2rem;
+}
+
+main .info .title {
+    font-size: 4rem;
+    padding: 2rem 0;
+    color: #fff;
+    font-weight: 600;
+}
+
+main .info .text {
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+main .info .register {
+    padding: 1.7rem;
+    border-radius: 3rem;
+    width: 19rem;
+    font-size: 1.6rem;
+    border: 0;
+    color: hsl(257, 40%, 49%);
+    transition: 0.2s ease-in-out;
+}
+
+footer {
+    text-align: end;
+    margin: 5rem 0 2em;
+    bottom: 0;
+    right: 0;
+}
+
+footer i {
+    font-size: 1.8rem;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 0.8rem;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+footer .fa-twitter {
+    margin: 0 1rem;
+}
+
+footer .fa-facebook-f {
+    width: 3.6rem;
+    text-align: center;
+}
+
+main .register:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+footer i:hover {
+    color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
