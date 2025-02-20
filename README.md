@@ -16,6 +16,7 @@ Desktop:
 <img src=.\src\designs\desktop-design.jpg>
 
 Mobile:
+<br>
 <img src=.\src\designs\mobile-design.jpg>
 
 ### Conclusão 
