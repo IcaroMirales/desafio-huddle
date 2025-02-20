@@ -1,0 +1,5 @@
+:root {
+  --color-default-text-icons: #fff;
+  --color-default-hover: hsl(300, 69%, 71%);
+  --color-default-register-body: hsl(257, 40%, 49%);
+}
